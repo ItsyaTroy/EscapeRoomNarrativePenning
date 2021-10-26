@@ -1,0 +1,48 @@
+/* This is the universal code. I used it here to center the content */
+* {
+  margin-left:50px;
+  margin-right: 50px;
+  
+}
+
+/* This is for the iamges. I used it here to center the image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* The styling of the main heading. I used it for extra emphasis */
+h1 {
+  text-decoration: underline;
+}
+/* The styling of the top heading. I used it so the title is always present and the same */
+h1, .toptitle {
+  color: blue;
+  font-size:72px;
+  text-align:center;
+}
+
+/* Paragraph Styling  */
+p {
+  color:#0047ba;
+  font-size:20px;
+}
+
+/* Button Styling  */
+button {
+  text-align:center;
+  font-size:32px;
+}
+
+/* Button Styling that centers the button */
+.centeredbutton {
+  text-align:center;
+}
+
+/* This one essentially changes amy text with this ID attached to the google font (for this site it is all of the text)  */
+#narrative {
+font-family: 'Permanent Marker', cursive;
+  
+}
